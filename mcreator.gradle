@@ -1,0 +1,20 @@
+repositories {
+  maven {
+    url = "https://cursemaven.com"
+  }
+}
+
+dependencies {
+  implementation fg.deobf("curse.maven:kleidersplayerrenderer-682065:4478425")
+}
+
+repositories {
+  maven {
+      url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+  }
+}
+
+dependencies {
+  implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.18:3.0.57')
+}
+

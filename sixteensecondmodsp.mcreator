@@ -1,0 +1,66 @@
+{
+  "mod_elements": [
+    {
+      "name": "TakeVar1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "take_var_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencore/sixteensecondmodsp/procedures/TakeVar1Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/API Test"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "API Test",
+        "children": []
+      },
+      {
+        "name": "MISC",
+        "children": []
+      },
+      {
+        "name": "Machine",
+        "children": []
+      },
+      {
+        "name": "Tool",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "sixteensecondmodsp",
+    "modName": "SixteenSecondModSP",
+    "version": "1.0.0",
+    "author": "Techsi.vn, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "kleidersplayerrenderer",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.kiencore.sixteensecondmodsp",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
