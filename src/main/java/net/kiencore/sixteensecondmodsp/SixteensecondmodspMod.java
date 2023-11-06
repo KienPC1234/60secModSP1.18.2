@@ -28,6 +28,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.kiencore.sixteensecondmodsp.init.SixteensecondmodspModTabs;
+import net.kiencore.sixteensecondmodsp.init.SixteensecondmodspModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -41,8 +44,10 @@ public class SixteensecondmodspMod {
 	private static int messageID = 0;
 
 	public SixteensecondmodspMod() {
-
+		SixteensecondmodspModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		SixteensecondmodspModItems.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

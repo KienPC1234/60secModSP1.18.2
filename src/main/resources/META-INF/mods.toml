@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license=" All Copyrights Belong to Robot Gentleman"
 
 [[mods]]
 modId="sixteensecondmodsp"
-version="1.0.0"
+version="1.0"
 displayName="SixteenSecondModSP"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="Techsi.vn, MCreator"
+credits="Make By HCD"
+displayURL="https://github.com/KienPC1234"
+logoFile="logo.png"
+authors="KIENCORE DEVELOP"
 
 [[dependencies.sixteensecondmodsp]]
     modId="minecraft"

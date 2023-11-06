@@ -3,6 +3,7 @@
     {
       "name": "TakeVar1",
       "type": "procedure",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_var_1",
@@ -13,12 +14,60 @@
         "dependencies": []
       },
       "path": "~/API Test"
+    },
+    {
+      "name": "GameiconItemInHandTick",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gameicon_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencore/sixteensecondmodsp/procedures/GameiconItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MISC"
+    },
+    {
+      "name": "Gameicon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gameicon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sixteensecondmodsp/models/item/gameicon.json",
+          "src/main/java/net/kiencore/sixteensecondmodsp/item/GameiconItem.java"
+        ]
+      },
+      "path": "~/MISC"
+    },
+    {
+      "name": "CTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/MISC"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.sixteensecondmodsp.gameicon": "Gameicon",
+      "itemGroup.tabc_tab": "KCDSP"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -44,12 +93,13 @@
   "workspaceSettings": {
     "modid": "sixteensecondmodsp",
     "modName": "SixteenSecondModSP",
-    "version": "1.0.0",
-    "author": "Techsi.vn, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "version": "1.0",
+    "author": "KIENCORE DEVELOP",
+    "websiteURL": "https://github.com/KienPC1234",
+    "license": " All Copyrights Belong to Robot Gentleman",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "download",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
@@ -58,7 +108,7 @@
       "geckolib"
     ],
     "currentGenerator": "forge-1.18.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Make By HCD",
     "modElementsPackage": "net.kiencore.sixteensecondmodsp",
     "lockBaseModFiles": false
   },

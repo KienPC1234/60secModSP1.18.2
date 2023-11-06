@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "KCDSP",
+    "icon": {
+      "value": "CUSTOM:Gameicon"
+    },
+    "showSearch": true
+  }
+}
