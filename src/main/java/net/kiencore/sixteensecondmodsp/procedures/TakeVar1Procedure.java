@@ -8,6 +8,7 @@ import net.minecraftforge.event.world.WorldEvent;
 
 import javax.annotation.Nullable;
 
+import java.io.IOException;
 import java.io.File;
 
 @Mod.EventBusSubscriber
@@ -23,6 +24,14 @@ public class TakeVar1Procedure {
 
 	private static void execute(@Nullable Event event) {
 		File File = new File("");
-		File = new File((FMLPaths.GAMEDIR.get().toString() + "/config"), File.separator + "plrdata");
+		File = new File((FMLPaths.GAMEDIR.get().toString() + "/config"), File.separator + "plrdata.json");
+		if (!File.exists()) {
+			try {
+				File.getParentFile().mkdirs();
+				File.createNewFile();
+			} catch (IOException exception) {
+				exception.printStackTrace();
+			}
+		}
 	}
 }

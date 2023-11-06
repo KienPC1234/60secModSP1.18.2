@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.kiencore.sixteensecondmodsp.item.GameiconItem;
+import net.kiencore.sixteensecondmodsp.item.FireAxeItem;
 import net.kiencore.sixteensecondmodsp.SixteensecondmodspMod;
 
 public class SixteensecondmodspModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, SixteensecondmodspMod.MODID);
+	public static final RegistryObject<Item> FIRE_AXE = REGISTRY.register("fire_axe", () -> new FireAxeItem());
 	public static final RegistryObject<Item> GAMEICON = REGISTRY.register("gameicon", () -> new GameiconItem());
 }

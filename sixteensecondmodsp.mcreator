@@ -38,6 +38,7 @@
     {
       "name": "Gameicon",
       "type": "item",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gameicon",
@@ -59,6 +60,43 @@
         "files": []
       },
       "path": "~/MISC"
+    },
+    {
+      "name": "FireAxe",
+      "type": "animateditem",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencore/sixteensecondmodsp/item/FireAxeItem.java",
+          "src/main/java/net/kiencore/sixteensecondmodsp/item/model/FireAxeItemModel.java",
+          "src/main/java/net/kiencore/sixteensecondmodsp/item/renderer/FireAxeItemRenderer.java",
+          "src/main/resources/assets/sixteensecondmodsp/models/item/fire_axe.json"
+        ]
+      },
+      "path": "~/Tool/Leviathan Axe"
+    },
+    {
+      "name": "FireAxeRightclicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_axe_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencore/sixteensecondmodsp/procedures/FireAxeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Tool/Leviathan Axe"
     }
   ],
   "variable_elements": [],
@@ -66,7 +104,8 @@
   "language_map": {
     "en_us": {
       "item.sixteensecondmodsp.gameicon": "Gameicon",
-      "itemGroup.tabc_tab": "KCDSP"
+      "itemGroup.tabc_tab": "KCDSP",
+      "item.sixteensecondmodsp.fire_axe": "Fire Axe"
     }
   },
   "foldersRoot": {
@@ -86,7 +125,12 @@
       },
       {
         "name": "Tool",
-        "children": []
+        "children": [
+          {
+            "name": "Leviathan Axe",
+            "children": []
+          }
+        ]
       }
     ]
   },

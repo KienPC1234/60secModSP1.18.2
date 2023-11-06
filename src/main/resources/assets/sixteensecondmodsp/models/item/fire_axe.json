@@ -1,0 +1,6 @@
+{
+  "parent": "sixteensecondmodsp:displaysettings/leviathan_axe.item",
+  "textures": {
+    "layer0": "sixteensecondmodsp:items/14649281-9e85-4af3-9078-40180346fd11"
+  }
+}

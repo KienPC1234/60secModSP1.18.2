@@ -8,10 +8,11 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
 import net.kiencore.sixteensecondmodsp.procedures.GameiconItemInHandTickProcedure;
+import net.kiencore.sixteensecondmodsp.init.SixteensecondmodspModTabs;
 
 public class GameiconItem extends Item {
 	public GameiconItem() {
-		super(new Item.Properties().tab(null).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(SixteensecondmodspModTabs.TAB_C_TAB).stacksTo(64).rarity(Rarity.EPIC));
 	}
 
 	@Override
